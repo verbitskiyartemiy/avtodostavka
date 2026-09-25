@@ -17,7 +17,7 @@
 
 | Шаг | Что | Файлы |
 |---|---|---|
-| S00 | Аудит исходного контекста: 14 исправлений | [discovery/00-context-audit.md](discovery/00-context-audit.md), [discovery/changes-log.md](discovery/changes-log.md) |
+| S00 | Аудит исходного контекста: 14 групп исправлений (И1–И14), 25 записей в changes-log | [discovery/00-context-audit.md](discovery/00-context-audit.md), [discovery/changes-log.md](discovery/changes-log.md) |
 | S01 | Бриф продукта | [discovery/brief.md](discovery/brief.md) |
 | S02 | Рынок и конкуренты | [discovery/market-research.md](discovery/market-research.md) |
 | S03 | 3 персоны: Андрей (основная), Дмитрий (первые клиенты), Руслан (не наш клиент) | [discovery/personas/](discovery/personas/README.md) |
@@ -32,6 +32,8 @@
 | S12 | Проверка согласованности всех документов; **«Единые цифры проекта»** — единственный источник чисел для слайдов | [discovery/validation-report.md](discovery/validation-report.md) |
 | S13 | Бриф презентации, материалы для QR, задачи команды | [presentation/presentation-blueprint.md](presentation/presentation-blueprint.md), [presentation/qr-materials.md](presentation/qr-materials.md), [presentation/team-todo.md](presentation/team-todo.md) |
 | S14 | Финальная проверка по ТЗ, этот итог | [presentation/final-review.md](presentation/final-review.md), `SUMMARY.md` |
+
+Все числа для слайдов и их источники — в [discovery/validation-report.md](discovery/validation-report.md), раздел «Единые цифры проекта»; цифры с пометками 🟡 и 🔴 сверить перед защитой.
 
 Отчёты ревью каждого шага — в [reviews/](reviews/). Ход работы — в [STATUS.md](STATUS.md).
 
@@ -70,3 +72,9 @@
 4. **Позвонить в 3 банка и 2–3 экспортёрам в Японии:** согласуют ли аккредитив с раскрытием по коносаменту и оплатит ли экспортёр аукцион. Если нет — переписать защиту на слайдах 4 и 6.
 5. **Если успеваете — 10–12 реальных интервью** по гайду, затем обновить слайды 7, 9, 11. Если нет — честно: «интервью запланированы на октябрь 2026».
 6. **Перед печатью:** проверить, не занято ли название «Автодоставка», контраст на проекторе, нумерацию, отсутствие слов «эскроу» и «уникальная защита»; сохранить PDF-копию.
+
+## Допущения и открытые вопросы
+
+- Схема защиты денег держится на двух непроверенных условиях: экспортёр оплачивает аукцион своими деньгами до раскрытия аккредитива [ДОПУЩЕНИЕ, changes-log п. 52] и банк раскрывает аккредитив по коносаменту на имя клиента [ГИПОТЕЗА Г-11].
+- ЦА, барьер, цена и канал — гипотезы Г-02, Г-01, Г-05, Г-06 до реальных интервью и теста.
+- Что в чек-листе ТЗ осталось за командой — [presentation/final-review.md](presentation/final-review.md), раздел про чек-лист ТЗ (пункты ⚠️) и «Допущения и открытые вопросы».
